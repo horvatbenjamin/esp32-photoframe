@@ -3,6 +3,8 @@ if(CONFIG_BOARD_DRIVER_WAVESHARE_PHOTOPAINTER_73)
     list(APPEND srcs "src/driver_waveshare_photopainter_73.c")
 elseif(CONFIG_BOARD_DRIVER_SEEEDSTUDIO_XIAO_EE02)
     list(APPEND srcs "src/driver_seeedstudio_xiao_ee02.c")
+elseif(CONFIG_BOARD_DRIVER_SEEEDSTUDIO_RETERMINAL_E1002)
+    list(APPEND srcs "src/driver_seeedstudio_reterminal_e1002.c")
 endif()
 
 # WaveShare-specific dependencies (AXP power management, I2C bus)

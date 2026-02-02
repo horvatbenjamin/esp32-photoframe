@@ -20,6 +20,12 @@ menu "Board Configuration"
                 Voltage is read via ADC. Percentage is estimated.
                 Charging status via GPIO.
 
+        config BOARD_DRIVER_SEEEDSTUDIO_RETERMINAL_E1002
+            bool "Seeed reTerminal E1002 (Spectra E6)"
+            help
+                Driver for Seeed reTerminal E1002 with 7.3" Spectra E6 display.
+                Includes battery monitoring and deep sleep support.
+
     endchoice
 
 endmenu
